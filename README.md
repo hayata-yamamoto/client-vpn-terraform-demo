@@ -12,7 +12,7 @@ Terraform v0.12.2
 
 THIS IS NOT OFFICIAL DOCUMENT. 
 
-THE PURPOSE OF THIS DOCUMENT IS TO UNDERSTAND WHAT CLIENT VPN WORKS AND HOW TO SET UP THIS.
+THE PURPOSE OF THIS DOCUMENT IS TO UNDERSTAND **WHAT CLIENT VPN WORKS** AND **HOW TO SET UP THIS**.
 
 ## Certification
 This document is following AWS official document. Official document adopts easy-rsa to make certification.
