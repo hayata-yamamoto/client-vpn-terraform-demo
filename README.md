@@ -56,7 +56,12 @@ $ terraform plan
 $ terraform apply 
 ```
 
-And then open the AWS console. Set authorization and route table on ClientVPN. 
+## Set authorization and route table
+
+The above commands realize AWS entities (VPC, Subnet, EC2 and Client VPN endpoint). However, Terraform doesn't a few resources although issues are open. So, we have to add two actions on the console.
+
+1. Authorize subnet CIDR block.
+2. Add Internet route (= add 0.0.0.0/32 on route table)
 
 
 ## OpenVPN Setting
