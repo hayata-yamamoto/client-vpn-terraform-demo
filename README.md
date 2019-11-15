@@ -8,7 +8,14 @@ Terraform v0.12.2
 + provider.aws v2.16.0
 ```
 
+## Disclaimer
+
+THIS IS NOT OFFICIAL DOCUMENT. 
+THE PURPOSE OF THIS DOCUMENT IS TO UNDERSTAND WHAT CLIENT VPN WORKS AND HOW TO SET UP THIS.
+
 ## Certification
+This document is following AWS official document. Official document adopts easy-rsa to make certification.
+[Details](https://docs.aws.amazon.com/vpn/latest/clientvpn-admin/cvpn-working-certificates.html)
 
 ```bash 
 $ git clone https://github.com/OpenVPN/easy-rsa.git
