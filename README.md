@@ -65,7 +65,8 @@ cert /path/to/client1.domain.tld.crt
 key /path/to/client1.domain.tld.key
 ```
 
-Read configuration file by VPN client ex.) OpenVPN, Tunnelblick
+Read configuration file by VPN client 
+> ex.) OpenVPN, Tunnelblick
 
 ## Connect Jupyter Server
 
@@ -83,7 +84,7 @@ $ jupyter notebook --no-browser --NotebookApp.token=""
 $ ssh -i keyname ubuntu@instance-private-ip -L 8888:localhost:8888 -N 
 ```
 
-You can look jupyter UI on [localhost:8888](http://localhost:8888/tree)
+You can look jupyter UI on [localhost:8888/tree](http://localhost:8888/tree)
 
 ## Reference
 
